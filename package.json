@@ -1,0 +1,23 @@
+{
+  "name": "fitoptim-ai",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently -k \"node server/index.js\" \"vite --open\"",
+    "build": "vite build",
+    "start": "node server/index.js --production",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "sql.js": "^1.11.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "cors": "^2.8.5",
+    "concurrently": "^9.0.0"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0"
+  }
+}
