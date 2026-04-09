@@ -59,7 +59,7 @@ export function renderSettings() {
       <div class="settings-section">
         <div class="settings-section-title">About FitOptim AI</div>
         <div class="setting-row">
-          <div><div class="setting-label">Version</div><div class="setting-desc">Built with love for your optimization case study</div></div>
+          <div><div class="setting-label">Version</div><div class="setting-desc">Built with love for my people</div></div>
           <span style="font-family:'Inter',sans-serif;font-size:.82rem;color:var(--text-2)">v2.0.0</span>
         </div>
         <div class="setting-row">
